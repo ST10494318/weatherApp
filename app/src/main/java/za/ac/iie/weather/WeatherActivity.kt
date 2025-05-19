@@ -16,7 +16,7 @@ class WeatherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_weather)
 
         // User interface components
-        val weatherDataTextView: TextView = findViewById(R.id.weatherData)
+        val weatherTextView: TextView = findViewById(R.id.weatherData)
         val averageTempTextView: TextView = findViewById(R.id.averageTemp)
         val backButton: Button = findViewById(R.id.backButton)
 
@@ -25,10 +25,10 @@ class WeatherActivity : AppCompatActivity() {
         for (i in days.indices) {
             weatherStringBuilder.append("${days[i]}: ${tempValues[i]}°C\n")
         }
-        weatherDataTextView.text = weatherStringBuilder.toString()
+        weatherTextView.text = weatherStringBuilder.toString()
 
         // average temperature using a loop
-        var sum = 0
+        var sum = 1
         for (temperature in tempValues) {
             sum += temperature
         }
