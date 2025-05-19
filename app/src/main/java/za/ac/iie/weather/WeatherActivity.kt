@@ -28,7 +28,7 @@ class WeatherActivity : AppCompatActivity() {
         weatherTextView.text = weatherStringBuilder.toString()
 
         // average temperature using a loop
-        var sum = 1
+        var sum = 0
         for (temperature in tempValues) {
             sum += temperature
         }
