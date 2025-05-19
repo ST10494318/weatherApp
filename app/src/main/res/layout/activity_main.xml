@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="195dp"
+        android:layout_height="168dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/img"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/img"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Chris"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ST10494318"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_weather"
+        android:textSize="18sp" />
+
+</LinearLayout>

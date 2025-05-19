@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WEATHER</string>
+    <string name="weather">WEATHER</string>
+    <string name="your_full_name">[Your Full Name]</string>
+    <string name="your_student_number">[Your Student Number]</string>
+    <string name="app_logo">App Logo</string>
+    <string name="view_weather">View Weather</string>
+    <string name="Chris" />
+    <string name="ST10494318" />
+</resources>
